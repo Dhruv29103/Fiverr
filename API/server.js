@@ -32,7 +32,7 @@ app.use(cors({
 
 app.use(express.json());  
 app.use(cookieParser());
-
+console.log("just to check");
 app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);
 app.use("/api/gigs", gigRoute);
@@ -50,4 +50,4 @@ app.use((err, req, res, next) => {
 app.listen(8800, () => {
   connect(); 
   console.log("Backend server is running!");
-});
+}); 
