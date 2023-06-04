@@ -1,0 +1,38 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\cosine07\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express nodemon
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-19\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\cosine07\AppData\Local\Microsoft\WindowsApps;C:\Users\cosine07\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;E:\java_jdk\intellij\setup\IntelliJ IDEA Community Edition 2021.3.1\bin;E:\java_jdk\jdk-17_windows-x64_bin\jdk-17.0.2\bin;C:\Users\cosine07\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\5.0\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    }, 
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
